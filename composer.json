@@ -1,5 +1,8 @@
 {
     "name": "ryuring/monorepo-child-test",
+    "require": {
+        "ryuring/monorepo-grandchild-test": "^0.1"
+    },
     "require-dev": {
         "phpunit/phpunit": "^9.2"
     },
